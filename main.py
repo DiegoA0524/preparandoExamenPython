@@ -369,7 +369,7 @@ def registrar_banda():
             print("Por favor, ingresa un valor numérico entre 1 y 5 para la clasificación.")
 
     banda["tiempo"] = int(input("Tiempo (en minutos): "))
-    banda["costo"] = int(input("Costo: $")
+    banda["costo"] = int(input("Costo: $"));
     
     bandas.append(banda)
     print("Banda registrada con éxito.")
